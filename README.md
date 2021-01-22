@@ -48,12 +48,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [IntelliJ](https://www.jetbrains.com/pt-br/idea/)
 <br/>
 <br/>
-<h2 align="center"> 🌐 Contribuídores 🌐</h2>
-
-@all-contributors please add @brunobatistabbf for Code
-@all-contributors please add @CarlosERM for Code
-@all-contributors please add @brunofagner for Code
-
 
 <h2 align="center"> LICENSE </h2>
 <br/>
