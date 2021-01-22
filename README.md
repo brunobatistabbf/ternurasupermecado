@@ -48,5 +48,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [IntelliJ](https://www.jetbrains.com/pt-br/idea/)
 <br/>
 <br/>
+
 <h2 align="center"> LICENSE </h2>
-Ainda não criada
+<br/>
+
+- [MIT](https://github.com/brunobatistabbf/ternurasupermecado/blob/main/LICENSE)
