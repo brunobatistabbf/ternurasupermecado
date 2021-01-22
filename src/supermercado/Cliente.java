@@ -2,80 +2,39 @@ package supermercado;
 
 
 public class Cliente {
- //Atributos do Cliente 
- public String nome;
- public int idade;
- private int CPF;
- private String genero;
- public boolean ativo;
- 
- //Metodos personalizados do cliente
-  public void mostrarconta(){
-      System.out.println("  --------------------CONTA DO CLIENTE-----------:::::::::");
-        
-        System.out.println("NOME : " + this.getNome());
-        System.out.println("IDADE: " + this.getIdade());
-        System.out.println("COMPROU RECENTEMENTE: " +this.getAtivo() );
-        System.out.println("--------------------------------------------------------" );
-    
- }
-  public void cadastrarcliente(String n, int i, int c, String g){
-      this.setNome(n);
-      this.setIdade(i);
-      this.setCPF(c);
-      this.setGenero(g);
-      this.setAtivo(true);
-   
- }
- 
-  public void removercliente(){
-   this.setAtivo(false);
-   this.mostrarconta();
- }
- //Construtor
+    //Atributos do Cliente
+    private String genero;
+    private String nome;
+    private int CPF;
+    private int idade;
+    private int id;
+    //Metodos personalizados do cliente
 
-    public Cliente() {
-        this.setAtivo(false);
-    }
-//Metodos especiais do cliente
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
+    //Construtor
+    public Cliente(String nome, int idade, int cpf, String genero, int id){
         this.nome = nome;
+        this.idade = idade;
+        this.CPF = cpf;
+        this.genero = genero;
+        this.id = id;
+    }
+
+    //Metodos especiais do cliente
+    public String getNome() {
+        return this.nome;
     }
 
     public int getIdade() {
-        return idade;
-    }
-
-    public void setIdade(int idade) {
-        this.idade = idade;
+        return this.idade;
     }
 
     public int getCPF() {
-        return CPF;
+        return this.CPF;
     }
 
-    public void setCPF(int CPF) {
-        this.CPF = CPF;
-    }
+    public String getGenero() { return this.genero; }
 
-    public String getGenero() {
-        return genero;
-    }
+    public int getID() { return this.id;}
 
-    public void setGenero(String genero) {
-        this.genero = genero;
-    }
 
-    public boolean getAtivo() {
-        return ativo;
-    }
-
-    public void setAtivo(boolean ativo) {
-        this.ativo = ativo;
-    }
-  
 }
